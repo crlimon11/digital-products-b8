@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+header .container{
+    background-color: rgb(52, 52, 52);
+}
+header .container .logo img{
+    width: 200px;
+}
+header .container .menus ul{
+    display: flex;
+    column-gap: 40px;
+    height: 100%;
+    align-items: center;
+}
+header .container .menus ul a{
+    color: #fff;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+header .container .menus ul a:hover{
+    color: crimson;
+}
+/* this is bannar section */
+.bannar-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+}
+.bannar-photo{
+    width: 300px;
+}
+.bannar-container .bannar-text {
+    color: #fff;
+}
+.bannar-container .bannar-text h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.bannar-container .bannar-text p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 15px 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    
+}
+.bannar-container .bannar-text button:hover{
+    background-color: green;
+}
+/* this is about us section */
+.about h1{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.about_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_container h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.about_container button{
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 920px;
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 110px;
+    width: 110px;
+    background-color: green;
+}
+.box1{
+    background-color: rgb(184, 4, 112);
+}
+.box2{
+    background-color: rgb(128, 0, 0);
+}
